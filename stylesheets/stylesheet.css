@@ -35,6 +35,7 @@ a {
   border-color: rgba(255, 255, 255, 0.3); }
   
 ul.icons li a {
+  font-family: FontAwesome;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
