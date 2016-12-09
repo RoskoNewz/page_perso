@@ -43,7 +43,7 @@ a {
   border-color: rgba(255, 255, 255, 0.3); }
 
 ul.icons {
-	position : center;
+	
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
@@ -51,6 +51,7 @@ ul.icons {
 }
 
 ul.icons li {
+	position : center;
 	display: inline-block;
 	padding: 0.675em 0.5em;
 }
