@@ -42,40 +42,11 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
-ul.icons {
-	
-	cursor: default;
-	list-style: none;
-	padding-left: 0;
-	margin-top: -0.675em;
-}
-
-ul.icons li {
-	position : center;
-	display: inline-block;
-	padding: 0.675em 0.5em;
-}
-  
-ul.icons li a {
-  font-family: FontAwesome;
-  text-decoration: none;
-  position: center;
-  display: inline-block;
-  width: 3.75em;
-  height: 3.75em;
-  border-radius: 100%;
-  border: solid 1px #c8cccf;
-  line-height: 3.75em;
-  overflow: hidden;
-  text-align: center;
-  text-indent: 3.75em;
-  white-space: nowrap;
-}
 
 .site-footer {
   text-align: center;
   padding-top: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border-top: solid 1px #eff0f1;
   background-color : grey;
 
