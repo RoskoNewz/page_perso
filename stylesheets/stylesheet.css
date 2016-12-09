@@ -3,6 +3,12 @@
 * {
   box-sizing: border-box; }
 
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #850404); }
+
 body {
   padding: 0;
   margin: 0;
@@ -52,8 +58,8 @@ ul.icons li {
 ul.icons li a {
   font-family: FontAwesome;
   text-decoration: none;
-  position: relative;
-  display: block;
+  position: center;
+  display: inline-block;
   width: 3.75em;
   height: 3.75em;
   border-radius: 100%;
@@ -64,6 +70,22 @@ ul.icons li a {
   text-indent: 3.75em;
   white-space: nowrap;
 }
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px #eff0f1;
+  background-color : black;
+
+
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold; }
+
+.site-footer-credits {
+  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -84,11 +106,7 @@ ul.icons li a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #850404); }
+
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -251,17 +269,6 @@ ul.icons li a {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
